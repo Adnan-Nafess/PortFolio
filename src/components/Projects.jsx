@@ -14,11 +14,11 @@ const Projects = () => {
         },
         {
             id: 2,
-            title: "E-commerce Website",
-            description: "An e-commerce platform built with React and Node.js.",
+            title: "Threads Clone",
+            description: "An a threads platform built with React and Node.js.",
             imageSrc: "",  // Update with the correct image path
-            demo: "https://ecommerce-demo.com",  // Replace with actual link
-            source: "https://github.com/your-username/ecommerce",  // Replace with actual link
+            demo: "https://thread-clone-psi-ten.vercel.app/",  // Replace with actual link
+            source: "https://github.com/Adnan-Nafess/thread_clone.git",  // Replace with actual link
         },
         // Add more projects as needed
     ];
