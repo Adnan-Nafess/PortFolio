@@ -1,5 +1,6 @@
 import videoStreaming from "../assets/video-streaming.png";
-import bookStore from "../../Ai-Code Review.png"
+import bookStore from "../../Ai-Code Review.png";
+import bookStore from "../../book-store.png";
 // import ecommerceImage from "../assets/ecommerce.png"; // Replace with actual image path
 
 const Projects = () => {
@@ -15,12 +16,21 @@ const Projects = () => {
         },
         {
             id: 2,
-            title: "Threads Clone",
-            description: "An a threads platform built with React and Node.js.",
+            title: "Ai Code Reviewer",
+            description: "An a Ai Code Reviewer platform built with React and Node.js.",
             imageSrc: bookStore,  // Update with the correct image path
-            demo: "https://thread-clone-psi-ten.vercel.app/",  // Replace with actual link
-            source: "https://github.com/Adnan-Nafess/thread_clone.git",  // Replace with actual link
+            demo: "https://code-reviewer-ifah.vercel.app/",  // Replace with actual link
+            source: "https://github.com/Adnan-Nafess/Code_Reviewer",  // Replace with actual link
         },
+        {
+            id: 3,
+            title: "Full Stack Book Store",
+            description: "An a full stack book store platform built with React and Node.js.",
+            imageSrc: bookStore,  // Update with the correct image path
+            demo: "https://book-store-un74.vercel.app/",  // Replace with actual link
+            source: "https://github.com/Adnan-Nafess/BookStore",  // Replace with actual link
+        },
+        
         // Add more projects as needed
     ];
 
