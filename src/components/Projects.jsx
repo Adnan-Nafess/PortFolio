@@ -1,4 +1,5 @@
 import videoStreaming from "../assets/video-streaming.png";
+import bookStore from "../../Ai-Code Review.png"
 // import ecommerceImage from "../assets/ecommerce.png"; // Replace with actual image path
 
 const Projects = () => {
@@ -16,7 +17,7 @@ const Projects = () => {
             id: 2,
             title: "Threads Clone",
             description: "An a threads platform built with React and Node.js.",
-            imageSrc: "",  // Update with the correct image path
+            imageSrc: bookStore,  // Update with the correct image path
             demo: "https://thread-clone-psi-ten.vercel.app/",  // Replace with actual link
             source: "https://github.com/Adnan-Nafess/thread_clone.git",  // Replace with actual link
         },
