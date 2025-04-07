@@ -1,11 +1,17 @@
 import videoStreaming from "../assets/video-streaming.png";
+<<<<<<< HEAD
 import bookStore from "../../Ai-Code Review.png";
 import bookStore from "../../book-store.png";
+=======
+import swiggyImage from "../assets/Swiggy-png.png";
+import BookStoreImage from "../assets/Book-Store.png";
+>>>>>>> 5a18969 (resume update)
 // import ecommerceImage from "../assets/ecommerce.png"; // Replace with actual image path
 
 const Projects = () => {
     // Projects data
     const projectItems = [
+<<<<<<< HEAD
         {
             id: 1,
             title: "Video Streaming",
@@ -32,6 +38,35 @@ const Projects = () => {
         },
         
         // Add more projects as needed
+=======
+      {
+        id: 1,
+        title: "Video Streaming",
+        description: "A Video Streaming App Using React.js.",
+        imageSrc: videoStreaming,
+        demo: "https://video-streaming-silk.vercel.app/",
+        source: "https://github.com/Adnan-Nafess/ShowCase",
+      },
+      {
+        id: 2,
+        title: "Swiggy Clone",
+        description:
+          "Swiggy-inspired food delivery platform with restaurant listings, menu display.",
+        imageSrc: swiggyImage, // Update with the correct image path
+        demo: "https://swiggy-clone-tawny-seven.vercel.app/", // Replace with actual link
+        source: "https://github.com/Adnan-Nafess/swiggy-clone", // Replace with actual link
+      },
+      {
+        id: 3,
+        title: "Book Store",
+        description:
+          "Built an e-commerce book store with user authentication, cart management, and order placement. Integrated a system and optimized API performance",
+        imageSrc: BookStoreImage, // Update with the correct image path
+        demo: "https://book-store-un74.vercel.app/", // Replace with actual link
+        source: "https://github.com/Adnan-Nafess/BookStore", // Replace with actual link
+      },
+      // Add more projects as needed
+>>>>>>> 5a18969 (resume update)
     ];
 
     return (
