@@ -25,7 +25,7 @@ const Projects = () => {
       id: 3,
       title: "Book Store",
       description:
-        "Built an e-commerce book store with user authentication, cart management, and order placement. Integrated a system and optimized API performance",
+        "Built an e-commerce book store with user authentication, cart management, and order placement.",
       imageSrc: BookStoreImage,
       demo: "https://book-store-un74.vercel.app/",
       source: "https://github.com/Adnan-Nafess/BookStore",

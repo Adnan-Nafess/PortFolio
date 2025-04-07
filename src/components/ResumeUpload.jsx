@@ -17,17 +17,6 @@ const ResumeUpload = () => {
 
     return (
         <div className="resume-section py-10">
-            <h2 className="text-3xl font-bold mb-5">My Resume</h2>
-
-            {/* Resume Upload Section */}
-            <div className="mb-5">
-                <input
-                    type="file"
-                    accept=".pdf,.doc,.docx"
-                    onChange={handleFileChange}
-                    className="bg-gray-200 p-2 rounded-md"
-                />
-            </div>
 
             {/* Show Resume Link/Button */}
             {resume && (
