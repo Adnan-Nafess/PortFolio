@@ -1,5 +1,5 @@
 import videoStreaming from "../assets/video-streaming.png";
-import swiggyImage from "../assets/Swiggy-png.png";
+import swiggyImage from "../assets/Swigy-png.png";
 import BookStoreImage from "../assets/Book-Store.png";
 
 const Projects = () => {
